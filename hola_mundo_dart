@@ -1,0 +1,46 @@
+# Vamos a crear una carpeta en documentos con el nombre "dartprojects"
+# Despues debes instalar y configurar dart en visual studio
+# Cuando se realice, debes dirigirte a la carpeta de bin y crear un archivo "hola_mundo.dart"
+
+
+ void main(){
+  print("Hola Mundo Desde Dart");
+  //var  declara variables con el valor asignado
+  var edad=21;
+  String nombre = "Pedro";
+  int semestre = 7;
+  double promedioGral = 90.5;
+  bool regular = true;
+
+  //constante(const, final)
+  const String matricula = ""; #Colocar matricula
+  print ('Hola $nombre tu edad es $edad');
+  //impresion en múltiples líneas
+  print("""
+ Vas en $semestre semestre de tu carrera
+ Tu promedio general es de ${promedioGral+2}
+ y tu estatus como alumno regular es $regular
+""");
+
+//Maps estructura de datos que permite almacenar datos key-value
+const Map<String , dynamic> alumnos = {
+  "matricula"    :"202023091",
+  "nombre"       :"Abigail Jimenez Rojas",
+  "semestre"     : "7",
+  "promedioGral" :94.5,
+  "regular"      : true
+};
+
+print(alumnos);
+print (alumnos["nombre"]);
+
+const List <String>mascotas = [
+  "gato",
+  "perro",
+  "canario",
+  "cobaya"
+];
+print(mascotas);
+}
+
+//una lista es igual que un array, el list es de manera automatica
