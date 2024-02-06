@@ -1,0 +1,12 @@
+# En la carpeta "test" colocaremos lo siguiente:
+
+import 'package:hola_mundo/hola_mundo.dart';
+import 'package:test/test.dart';
+
+void main() {
+  test('calculate', () {
+    expect(calculate(), 42);
+  });
+}
+
+#Al ejecutar el código, será visualizado en la terminal de visual
