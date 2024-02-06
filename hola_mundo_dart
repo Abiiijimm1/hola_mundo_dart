@@ -1,6 +1,7 @@
 # Vamos a crear una carpeta en documentos con el nombre "dartprojects"
-# Despues debes instalar y configurar dart en visual studio
+# Después debes instalar y configurar dart en visual studio
 # Cuando se realice, debes dirigirte a la carpeta de bin y crear un archivo "hola_mundo.dart"
+
 
 
  void main(){
@@ -42,5 +43,4 @@ const List <String>mascotas = [
 ];
 print(mascotas);
 }
-
-//una lista es igual que un array, el list es de manera automatica
+//una lista es igual que un array, el list es de manera automática
