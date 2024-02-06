@@ -3,4 +3,4 @@
 int calculate() {
   return 6 * 7;
 }
-# Función llamada "calculate", devuelve un resultado mutiplicado.
+# Función llamada "calculate", devuelve un resultado multiplicado.
